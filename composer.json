@@ -1,0 +1,21 @@
+{
+    "name": "firestorm/monetapay",
+    "description": "Quick serive package for useage of Monetapay",
+    "type": "1",
+    "keywords": ["firestorm", "monetapay", "transfer", "payment"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Firestorm\\Monetapay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bob",
+            "email": "bob@wavetec-globe.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
