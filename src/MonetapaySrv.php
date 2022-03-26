@@ -35,6 +35,13 @@ class MonetapaySrv
     }
 
     /**
+     * @return RawBuilder
+     */
+    public function getRawBuilder(){
+        return $this->rawBuilder;
+    }
+
+    /**
      * 发起代付
      * @param array $input
      * @return array
