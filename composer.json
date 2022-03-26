@@ -1,6 +1,6 @@
 {
     "name": "firestorm/monetapay",
-    "description": "Quick serive package for useage of Monetapay",
+    "description": "Quick service package for usage of Monetapay",
     "type": "1",
     "keywords": ["firestorm", "monetapay", "transfer", "payment"],
     "license": "MIT",

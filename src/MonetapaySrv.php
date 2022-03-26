@@ -146,16 +146,18 @@ class MonetapaySrv
      * 拉取所有流水账单
      * @param $startTime        -开始时间
      * @param $endTime          -截止时间
+     * @param $type             -账单类型
      * @param int $page         -当前页
      * @param int $pageSize     -每页拉取多少条流水账单
      * @return array
      */
-    public function bills($startTime,$endTime,$page=1,$pageSize = 20){
+    public function bills($startTime,$endTime,$type = '',$page=1,$pageSize = 20){
         $url = $this->hostname  .'/' . $this->version . '/bills';
 
         $input = [
             'page'          => $page,
             'page_size'     => $pageSize,
+            'type'          => $type,
             'start_time'    => $startTime,
             'end_time'      => $endTime,
         ];
